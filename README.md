@@ -11,6 +11,6 @@ A repo of tools that can be used to clean up your raster data that stored in the
     - Portal Admin account.
     - Credentials to raster datastore.
 - **clean bucket** - deletes crfs in cloud storage that don't have a corresponding service in the portal.
-  - **DONT IMPLEMENT DELETE YET**
+  - Implemented as an option on top of **compare bundles to services**
 - **fix service** - Build pyramids and statistics on a service that failed to generate pyramids and statistics.
 - **fix bundle url** - fixes a broken link to a crf bundle in cloud storage.
