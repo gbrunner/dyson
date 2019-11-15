@@ -16,7 +16,7 @@ def get_input():
     optional = parser.add_argument_group('Optional arguments')
     required.add_argument('-config', required=True, help='Config File')
     optional.add_argument('-compare', help='Return results of Compare', action='store_true')
-    optional.add_argument('-fixbundles', help='get', action='store_true')
+    optional.add_argument('-fixbundles', help='Fix broken link to crf bundle in cloud storage', action='store_true')
     optional.add_argument('-delete', help='Delete results of Compare', action='store_true')
     optional.add_argument('-version', action='version', version='0.9')
 
