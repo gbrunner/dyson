@@ -26,7 +26,6 @@ def get_input():
 
     config = parser.parse_args().config
     commands = parser.parse_args()
-    print(commands)
 
     with open(config) as f:
         data = json.load(f)
